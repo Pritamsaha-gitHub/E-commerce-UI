@@ -176,9 +176,7 @@ nav +div{
     flex-direction: row;
     justify-content: space-between;
 }
-.product{
-    /* border: 2px solid green; */
-}
+
 .product:hover{
     transform: scale(1.1);
 }
@@ -460,9 +458,6 @@ nav +div{
 .tren2{
     color: #909090;
     font-size: 1.6rem;
-}
-.girl-data{
-    /* width: 29.5%; */
 }
 .pt3{
     display: flex;
