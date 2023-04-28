@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-commerce-UI</title>
+    <link rel="stylesheet" href="./index.css" />
+    <a href="https://icons8.com/icon/8166/oval"></a>
+    <a href="https://icons8.com/icon/Dz93Lhx5V3fp/5-stars-icon"></a>
+    <a href="https://icons8.com/icon/11697/tick-box"></a>
+    <a href="https://icons8.com/icon/8294/dollar-coin"></a>
+    <a href="https://icons8.com/icon/86280/user"></a>
+    <a href="https://icons8.com/icon/9341/truck"></a>
+    <a href="https://icons8.com/icon/118466/facebook"></a>
+    <a href="https://icons8.com/icon/101340/twitter-circled"></a>
+    <a href="https://icons8.com/icon/Xy10Jcu1L2Su/instagram"></a>
+    <a href="https://icons8.com/icon/oNs9WuTrXJUL/youtube"></a>
+    <a href="https://icons8.com/icon/7880/location"></a>
+    <a href="https://icons8.com/icon/86875/mail"></a>
+    <a href="https://icons8.com/icon/78382/phone"></a>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <label>
+          <img class="logo" src="./logo.png" alt="logo" /><img
+            class="brand"
+            src="./brand.png"
+            alt="brand"
+          />
+        </label>
+        <div class="option">
+          <a href="#">Home</a>
+          <a href="#">Shop</a>
+          <a href="#">Pages</a>
+          <a href="#">About Us</a>
+          <a href="#">Lookups</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-magnifying-glass" style="color: #4f5665"></i>
+          <i class="fa-regular fa-user" style="color: #4f5665"></i>
+          <div>
+            <i
+              class="fa-solid fa-circle cir"
+              style="color: #ff5151; font-size: 1rem"
+            ></i>
+            <i class="fa-regular fa-bell" style="color: #4f5665"></i>
+          </div>
+        </div>
+      </nav>
+      <div>
+        <div class="tags">
+          <div>
+            <p class="pre-tag">Limited Time Only For Winter</p>
+            <i
+              class="fa-solid fa-circle circ"
+              style="color: #ff5e3a; font-size: 2.4rem"
+            ></i>
+            <p class="tag">fashion</p>
+            <p class="post-tag">LOOK YOUR BEST ON YOUR BEST DAY</p>
+          </div>
+          <button>Explore Now!</button>
+        </div>
+        <img src="./trolly-girl.png" alt="trolly-girl" />
+      </div>
+    </header>
+    <main>
+      <div class="col-text">
+        <div class="und">COLLECTION</div>
+        <div class="dot"></div>
+        <div class="line"></div>
+        <div style="font-size: 2.4rem; font-weight: 500">
+          Our Top Collection
+        </div>
+        <div class="options">
+          <button>Jewellery</button>
+          <button>Accessories</button>
+          <button>Dresses</button>
+          <button>Footwear</button>
+        </div>
+      </div>
+      <div class="products">
+        <div class="product">
+          <div class="photo-bg">
+            <img class="item1" src="./shirt.png" alt="shirt" />
+            <img
+              class="img"
+              style="width: 20rem"
+              src="data:image/png;base64,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"
+            />
+          </div>
+          <div class="sec1">
+            <div class="txt-part">
+              Nike Air Men’s Hoodie - Imported Hoodie Red
+            </div>
+            <div class="bottom">
+              <p class="price">$150</p>
+              <img
+                class="pic"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB80lEQVR4nO2UzWoUQRSFW10I/u1EfQBJQHAjmtwbRdCNq+xGQ7rvbXWRnbgzLiIK6tq4DPoE/sU/cBFR8Cn0JXSjBkU4UjVjY+jumR5txiGeDw4U1fX1KZrqShJCCCGEEEIIIYQQQgghhBDyH4Ps8M6QTeUsHNnRXDA9B585O1TJODuZzMGkM0SJPILpw+E2NsaOy2O4Pmh+XFw+w/QLOid3jaHzMabhbxDeDZNPtQ5cZ5HLQhHTu3BFjOnyhmeus//YWYbri5iheuQ5TF/C9U7JwYXje2H6qthMXUzeID1xIJaMypmb2gfXtd78W5iuIJNTMWEc5rreWlgbnfzofpi+Lt71y8nldJ2TIEm2wOUyTL+XNyU/YHIDnc62DSdnVM71ZCtcluIxtun5Yt6m53tHeymsKTkm10pOrmmdE4HLYsXGFpM+tOZkemWgY/IMl85sjwnjQT0mV+HytHDCr9CvB2Fx+ViuDthYO47pk/6OrsLkHlzex8Rxg56u86Hn3a/twUXdDZN1uH6Dye2Y7ng9PGvNSY/t+asel1vdDNOjNwvH9WulA9cMLu/gM4eKufNTB+NlkWta/YX/wDGxVnt++8cb91Q5yGUyXFKl+XBx5TJZWTIqJ9WJWifVibYcQgghhBBCCCGEEEIIIYQQkmxifgLqZAhfcn92/gAAAABJRU5ErkJggg=="
+              />
+            </div>
+          </div>
+        </div>
+        <div class="product">
+          <div class="photo-bg">
+            <img class="item1" src="./womandress.png" alt="shirt" />
+            <img
+              class="img"
+              style="width: 20rem"
+              src="data:image/png;base64,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"
+            />
+          </div>
+          <div class="sec1">
+            <div class="txt-part">Armani Frok Ladies - Imported Fork Blue</div>
+            <div class="bottom">
+              <p class="price">$250</p>
+              <img
+                class="pic"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB80lEQVR4nO2UzWoUQRSFW10I/u1EfQBJQHAjmtwbRdCNq+xGQ7rvbXWRnbgzLiIK6tq4DPoE/sU/cBFR8Cn0JXSjBkU4UjVjY+jumR5txiGeDw4U1fX1KZrqShJCCCGEEEIIIYQQQgghhBDyH4Ps8M6QTeUsHNnRXDA9B585O1TJODuZzMGkM0SJPILpw+E2NsaOy2O4Pmh+XFw+w/QLOid3jaHzMabhbxDeDZNPtQ5cZ5HLQhHTu3BFjOnyhmeus//YWYbri5iheuQ5TF/C9U7JwYXje2H6qthMXUzeID1xIJaMypmb2gfXtd78W5iuIJNTMWEc5rreWlgbnfzofpi+Lt71y8nldJ2TIEm2wOUyTL+XNyU/YHIDnc62DSdnVM71ZCtcluIxtun5Yt6m53tHeymsKTkm10pOrmmdE4HLYsXGFpM+tOZkemWgY/IMl85sjwnjQT0mV+HytHDCr9CvB2Fx+ViuDthYO47pk/6OrsLkHlzex8Rxg56u86Hn3a/twUXdDZN1uH6Dye2Y7ng9PGvNSY/t+asel1vdDNOjNwvH9WulA9cMLu/gM4eKufNTB+NlkWta/YX/wDGxVnt++8cb91Q5yGUyXFKl+XBx5TJZWTIqJ9WJWifVibYcQgghhBBCCCGEEEIIIYQQkmxifgLqZAhfcn92/gAAAABJRU5ErkJggg=="
+              />
+            </div>
+          </div>
+        </div>
+        <div class="product">
+          <div class="photo-bg">
+            <img class="item1" src="./watch.png" alt="shirt" />
+            <img
+              class="img"
+              style="width: 20rem"
+              src="data:image/png;base64,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"
+            />
+          </div>
+          <div class="sec1">
+            <div class="txt-part">
+              Apple Watch Series 6 - Sliver Band
+              <br />
+              <span>&nbsp;</span>
+            </div>
+            <div class="bottom">
+              <p class="price">$450</p>
+              <img
+                class="pic"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB80lEQVR4nO2UzWoUQRSFW10I/u1EfQBJQHAjmtwbRdCNq+xGQ7rvbXWRnbgzLiIK6tq4DPoE/sU/cBFR8Cn0JXSjBkU4UjVjY+jumR5txiGeDw4U1fX1KZrqShJCCCGEEEIIIYQQQgghhBDyH4Ps8M6QTeUsHNnRXDA9B585O1TJODuZzMGkM0SJPILpw+E2NsaOy2O4Pmh+XFw+w/QLOid3jaHzMabhbxDeDZNPtQ5cZ5HLQhHTu3BFjOnyhmeus//YWYbri5iheuQ5TF/C9U7JwYXje2H6qthMXUzeID1xIJaMypmb2gfXtd78W5iuIJNTMWEc5rreWlgbnfzofpi+Lt71y8nldJ2TIEm2wOUyTL+XNyU/YHIDnc62DSdnVM71ZCtcluIxtun5Yt6m53tHeymsKTkm10pOrmmdE4HLYsXGFpM+tOZkemWgY/IMl85sjwnjQT0mV+HytHDCr9CvB2Fx+ViuDthYO47pk/6OrsLkHlzex8Rxg56u86Hn3a/twUXdDZN1uH6Dye2Y7ng9PGvNSY/t+asel1vdDNOjNwvH9WulA9cMLu/gM4eKufNTB+NlkWta/YX/wDGxVnt++8cb91Q5yGUyXFKl+XBx5TJZWTIqJ9WJWifVibYcQgghhBBCCCGEEEIIIYQQkmxifgLqZAhfcn92/gAAAABJRU5ErkJggg=="
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-text">
+        <div class="und">New Arrival</div>
+        <div class="dot"></div>
+        <div class="line"></div>
+        <div style="font-size: 2.4rem; font-weight: 500">Latest Collection</div>
+      </div>
+      <div class="des">
+        <div class="des-left">
+          <div class="des-left1">
+            <img class="des-left2" src="./des1.png" alt="" />
+            <p class="des-left2-text">2021 Trends Women’s Smart Skirt</p>
+          </div>
+          <div class="des-left1">
+            <img class="des-left2" src="./des2.png" alt="" />
+            <p class="des-left2-text">2021 Trends Women’s Smart Skirt</p>
+          </div>
+        </div>
+        <div class="des-right">
+          <img class="des-right1" src="./des3.png" alt="" />
+          <p class="des-right2-text">
+            2021 Trends Women’s Smart Skirt <br />
+            <br /><br />
+            <span>Discover More:</span>
+          </p>
+        </div>
+      </div>
+      <div class="col-text">
+        <div class="und">CATEGORIES</div>
+        <div class="dot"></div>
+        <div class="line"></div>
+        <div style="font-size: 2.4rem; font-weight: 500">
+          2021 Latest Collection
+        </div>
+      </div>
+      <div class="products-list">
+        <div class="product1">
+          <div class="photo-bg1">
+            <img class="item2" src="./shirt.png" alt="shirt" />
+            <img
+              class="img1"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFEElEQVR4nO1dW4ydUxT+6xZECR6krnENdQmKuMYlnkRfhGCER6XiURBvQklIxJt76uBFSJXyRilPHJ3kzN7ft/+TTIbBtGg0VDsqrS1r7JFpdMY5cy57nf+sL/mSycyZf9Ze315771l7/2sXhcFgMBgMBoPBYDAYDAaDwWDoCDHGJd77MwHcDGA1yTUA3iC5CUADwDjJLSR/AbBXKF/L9+Rn8pn0WfmdNSGE++VZ8kx5tsnzP3DOnQzgHpLPkfwMwK8kYy+Ynv2p/C3v/d1jY2MnDb1AExMTh3rvbyT5NMk6gL96JUCLIknEvRhCuM05d8RQCBRjPCCEcLU0HMBvOQXgwuLsAvA2yZUxxgOLKg5HJJ8C8F1uZ7N9TgJ4shLDGsnzSdZI/qnAsbFDShtqAM4rBg0kVwD4KPe8wB4wtWmD9/6iQjsALEvzw57cjmPvhdmbImZZoQ3OuUNIPkZyR25Hsf/cAeDRer1+cKEBzrnlJL9W4JiYOWIaIYQLsgkh/+2SvJfkztzOoBICmAbwsCzv+yrG+Pj4UTJp53YA9fLDZrN5ZF/EKMvyNJJeQaOjcpYAzuqpGACuJblNQWPjIBDAz5KZ6IkYkneSlELuRnLAKD4LIdzQVTFS/mkYl7SxS5SFz/XdFON3BY2KA07p0Fd2JIb3/hQAPyloTKwIt4UQTl2UGJOTk4fJPoWCRsSKcbRerx/etiAA3lJgfKwo17YlBskRBUbHivPWlsRwzh1DcqsCg2PFuaXRaBzdylD1qgJj45DwpQXFCCFcWsVNJSpl8vWKhaLjvdxGcvj47nxzx/K0C5bbwDhsUbLffXpb5jKnMLV9xCC51BKHzBkl0/vsn8hxytyha+TI3AjZYA5h7rlk/dyc1W4ThLkF+UPOO8tkfoWJQRVDZlmWl8lw9WBuQ4ycjZLVIshacwhVdApJW8mQ9UVuQ4ycFeRzEYTmEGrpFK5I7+nlNsTIGR9MSYRMm0OookOIFiYIVQmyS4asqdyGGDkryPciiJ3TpZpOMWbLXqriJhHkNQWGGDnjg5dFkAfMIdTSIe4TQS5XYIiRjHLIZCb9Lqlfcwp1pN/Tfvr7JghzR+m6uTuGd5kgzB0hd9ghB6rhzv9UIALwpgLD4pDydTsoR+UH5dJcsi63gRwyAnhn3rO9JC+xw9bsd3RcPK8gSZRXcvcaDgkBvFC0WDbjh9zGsvps7YUdgff+dgUGxyoTwC0tiTFn6KppMJxVPe7TLiSvAuDL3Mazetws+cOig+LGPypoRKwItzabzROLThBCuMrqnLBjMaROsWx1dCSGicJuFp+5rugmvPfXWBEa5q0EtD9RpCiXgrE4DgKlcI8M+UUfSvy53I2lfo4tuvJPu5AXFKXQo4JGR6WUVwSXFpnKxFpxM2YuEzsXZVmeA+ArBb0y5qT8Ex1COLvQACmzDeARzXeCsLe39Ty0cePGgwptAHAsgOeHqRh/o9E4rtAO59yFJD+o4mYX/rmAbH3WOu+LhXPujBQxVXgpaLdEhPf+3GLQIQk1AE+Q/FaBY2Ob/Ibk42VZnlBU/FKwnl2Lxy5dCibVvLMuYfsJWZUkcVRdm0dy5b9nbIcZMiSQHAHwLIBPSG7voQDbAXwM4BkAd5I8Pnf71SPGuKTZbJ7uvb+J5Ko0B9XSDZ2jqUdPpatX96Sltly9OpV+Npo+W0u/u0qeJbm43G0zGAwGg8FgMBgMBoPBYDAYigrgbyL8XFkh/lDQAAAAAElFTkSuQmCC"
+            />
+          </div>
+          <div class="sec1">
+            <div class="sec1-txt">
+              <div class="txt-part1">
+                Nike Air Men’s Hoodie - Imported Hoodie Red
+              </div>
+              <p class="cart">Add to Cart</p>
+            </div>
+            <div class="bottom1">
+              <p class="price1">$150</p>
+              <img
+                class="pic1"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB80lEQVR4nO2UzWoUQRSFW10I/u1EfQBJQHAjmtwbRdCNq+xGQ7rvbXWRnbgzLiIK6tq4DPoE/sU/cBFR8Cn0JXSjBkU4UjVjY+jumR5txiGeDw4U1fX1KZrqShJCCCGEEEIIIYQQQgghhBDyH4Ps8M6QTeUsHNnRXDA9B585O1TJODuZzMGkM0SJPILpw+E2NsaOy2O4Pmh+XFw+w/QLOid3jaHzMabhbxDeDZNPtQ5cZ5HLQhHTu3BFjOnyhmeus//YWYbri5iheuQ5TF/C9U7JwYXje2H6qthMXUzeID1xIJaMypmb2gfXtd78W5iuIJNTMWEc5rreWlgbnfzofpi+Lt71y8nldJ2TIEm2wOUyTL+XNyU/YHIDnc62DSdnVM71ZCtcluIxtun5Yt6m53tHeymsKTkm10pOrmmdE4HLYsXGFpM+tOZkemWgY/IMl85sjwnjQT0mV+HytHDCr9CvB2Fx+ViuDthYO47pk/6OrsLkHlzex8Rxg56u86Hn3a/twUXdDZN1uH6Dye2Y7ng9PGvNSY/t+asel1vdDNOjNwvH9WulA9cMLu/gM4eKufNTB+NlkWta/YX/wDGxVnt++8cb91Q5yGUyXFKl+XBx5TJZWTIqJ9WJWifVibYcQgghhBBCCCGEEEIIIYQQkmxifgLqZAhfcn92/gAAAABJRU5ErkJggg=="
+              />
+            </div>
+          </div>
+        </div>
+        <div class="product1">
+          <div class="photo-bg1">
+            <img class="item2" src="./glass.png" alt="shirt" />
+            <img
+              class="img1"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFEElEQVR4nO1dW4ydUxT+6xZECR6krnENdQmKuMYlnkRfhGCER6XiURBvQklIxJt76uBFSJXyRilPHJ3kzN7ft/+TTIbBtGg0VDsqrS1r7JFpdMY5cy57nf+sL/mSycyZf9Ze315771l7/2sXhcFgMBgMBoPBYDAYDAaDwWDoCDHGJd77MwHcDGA1yTUA3iC5CUADwDjJLSR/AbBXKF/L9+Rn8pn0WfmdNSGE++VZ8kx5tsnzP3DOnQzgHpLPkfwMwK8kYy+Ynv2p/C3v/d1jY2MnDb1AExMTh3rvbyT5NMk6gL96JUCLIknEvRhCuM05d8RQCBRjPCCEcLU0HMBvOQXgwuLsAvA2yZUxxgOLKg5HJJ8C8F1uZ7N9TgJ4shLDGsnzSdZI/qnAsbFDShtqAM4rBg0kVwD4KPe8wB4wtWmD9/6iQjsALEvzw57cjmPvhdmbImZZoQ3OuUNIPkZyR25Hsf/cAeDRer1+cKEBzrnlJL9W4JiYOWIaIYQLsgkh/+2SvJfkztzOoBICmAbwsCzv+yrG+Pj4UTJp53YA9fLDZrN5ZF/EKMvyNJJeQaOjcpYAzuqpGACuJblNQWPjIBDAz5KZ6IkYkneSlELuRnLAKD4LIdzQVTFS/mkYl7SxS5SFz/XdFON3BY2KA07p0Fd2JIb3/hQAPyloTKwIt4UQTl2UGJOTk4fJPoWCRsSKcbRerx/etiAA3lJgfKwo17YlBskRBUbHivPWlsRwzh1DcqsCg2PFuaXRaBzdylD1qgJj45DwpQXFCCFcWsVNJSpl8vWKhaLjvdxGcvj47nxzx/K0C5bbwDhsUbLffXpb5jKnMLV9xCC51BKHzBkl0/vsn8hxytyha+TI3AjZYA5h7rlk/dyc1W4ThLkF+UPOO8tkfoWJQRVDZlmWl8lw9WBuQ4ycjZLVIshacwhVdApJW8mQ9UVuQ4ycFeRzEYTmEGrpFK5I7+nlNsTIGR9MSYRMm0OookOIFiYIVQmyS4asqdyGGDkryPciiJ3TpZpOMWbLXqriJhHkNQWGGDnjg5dFkAfMIdTSIe4TQS5XYIiRjHLIZCb9Lqlfcwp1pN/Tfvr7JghzR+m6uTuGd5kgzB0hd9ghB6rhzv9UIALwpgLD4pDydTsoR+UH5dJcsi63gRwyAnhn3rO9JC+xw9bsd3RcPK8gSZRXcvcaDgkBvFC0WDbjh9zGsvps7YUdgff+dgUGxyoTwC0tiTFn6KppMJxVPe7TLiSvAuDL3Mazetws+cOig+LGPypoRKwItzabzROLThBCuMrqnLBjMaROsWx1dCSGicJuFp+5rugmvPfXWBEa5q0EtD9RpCiXgrE4DgKlcI8M+UUfSvy53I2lfo4tuvJPu5AXFKXQo4JGR6WUVwSXFpnKxFpxM2YuEzsXZVmeA+ArBb0y5qT8Ex1COLvQACmzDeARzXeCsLe39Ty0cePGgwptAHAsgOeHqRh/o9E4rtAO59yFJD+o4mYX/rmAbH3WOu+LhXPujBQxVXgpaLdEhPf+3GLQIQk1AE+Q/FaBY2Ob/Ibk42VZnlBU/FKwnl2Lxy5dCibVvLMuYfsJWZUkcVRdm0dy5b9nbIcZMiSQHAHwLIBPSG7voQDbAXwM4BkAd5I8Pnf71SPGuKTZbJ7uvb+J5Ko0B9XSDZ2jqUdPpatX96Sltly9OpV+Npo+W0u/u0qeJbm43G0zGAwGg8FgMBgMBoPBYDAYigrgbyL8XFkh/lDQAAAAAElFTkSuQmCC"
+            />
+          </div>
+          <div class="sec1">
+            <div class="sec1-txt">
+              <div class="txt-part1">
+                Nike Air Men’s Hoodie - Imported Hoodie Red
+              </div>
+              <p class="cart">Add to Cart</p>
+            </div>
+            <div class="bottom1">
+              <p class="price1">$80</p>
+              <img
+                class="pic1"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB80lEQVR4nO2UzWoUQRSFW10I/u1EfQBJQHAjmtwbRdCNq+xGQ7rvbXWRnbgzLiIK6tq4DPoE/sU/cBFR8Cn0JXSjBkU4UjVjY+jumR5txiGeDw4U1fX1KZrqShJCCCGEEEIIIYQQQgghhBDyH4Ps8M6QTeUsHNnRXDA9B585O1TJODuZzMGkM0SJPILpw+E2NsaOy2O4Pmh+XFw+w/QLOid3jaHzMabhbxDeDZNPtQ5cZ5HLQhHTu3BFjOnyhmeus//YWYbri5iheuQ5TF/C9U7JwYXje2H6qthMXUzeID1xIJaMypmb2gfXtd78W5iuIJNTMWEc5rreWlgbnfzofpi+Lt71y8nldJ2TIEm2wOUyTL+XNyU/YHIDnc62DSdnVM71ZCtcluIxtun5Yt6m53tHeymsKTkm10pOrmmdE4HLYsXGFpM+tOZkemWgY/IMl85sjwnjQT0mV+HytHDCr9CvB2Fx+ViuDthYO47pk/6OrsLkHlzex8Rxg56u86Hn3a/twUXdDZN1uH6Dye2Y7ng9PGvNSY/t+asel1vdDNOjNwvH9WulA9cMLu/gM4eKufNTB+NlkWta/YX/wDGxVnt++8cb91Q5yGUyXFKl+XBx5TJZWTIqJ9WJWifVibYcQgghhBBCCCGEEEIIIYQQkmxifgLqZAhfcn92/gAAAABJRU5ErkJggg=="
+              />
+            </div>
+          </div>
+        </div>
+        <div class="product1">
+          <div class="photo-bg1">
+            <img class="item2" src="./goa_shirt.png" alt="shirt" />
+            <img
+              class="img1"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFEElEQVR4nO1dW4ydUxT+6xZECR6krnENdQmKuMYlnkRfhGCER6XiURBvQklIxJt76uBFSJXyRilPHJ3kzN7ft/+TTIbBtGg0VDsqrS1r7JFpdMY5cy57nf+sL/mSycyZf9Ze315771l7/2sXhcFgMBgMBoPBYDAYDAaDwWDoCDHGJd77MwHcDGA1yTUA3iC5CUADwDjJLSR/AbBXKF/L9+Rn8pn0WfmdNSGE++VZ8kx5tsnzP3DOnQzgHpLPkfwMwK8kYy+Ynv2p/C3v/d1jY2MnDb1AExMTh3rvbyT5NMk6gL96JUCLIknEvRhCuM05d8RQCBRjPCCEcLU0HMBvOQXgwuLsAvA2yZUxxgOLKg5HJJ8C8F1uZ7N9TgJ4shLDGsnzSdZI/qnAsbFDShtqAM4rBg0kVwD4KPe8wB4wtWmD9/6iQjsALEvzw57cjmPvhdmbImZZoQ3OuUNIPkZyR25Hsf/cAeDRer1+cKEBzrnlJL9W4JiYOWIaIYQLsgkh/+2SvJfkztzOoBICmAbwsCzv+yrG+Pj4UTJp53YA9fLDZrN5ZF/EKMvyNJJeQaOjcpYAzuqpGACuJblNQWPjIBDAz5KZ6IkYkneSlELuRnLAKD4LIdzQVTFS/mkYl7SxS5SFz/XdFON3BY2KA07p0Fd2JIb3/hQAPyloTKwIt4UQTl2UGJOTk4fJPoWCRsSKcbRerx/etiAA3lJgfKwo17YlBskRBUbHivPWlsRwzh1DcqsCg2PFuaXRaBzdylD1qgJj45DwpQXFCCFcWsVNJSpl8vWKhaLjvdxGcvj47nxzx/K0C5bbwDhsUbLffXpb5jKnMLV9xCC51BKHzBkl0/vsn8hxytyha+TI3AjZYA5h7rlk/dyc1W4ThLkF+UPOO8tkfoWJQRVDZlmWl8lw9WBuQ4ycjZLVIshacwhVdApJW8mQ9UVuQ4ycFeRzEYTmEGrpFK5I7+nlNsTIGR9MSYRMm0OookOIFiYIVQmyS4asqdyGGDkryPciiJ3TpZpOMWbLXqriJhHkNQWGGDnjg5dFkAfMIdTSIe4TQS5XYIiRjHLIZCb9Lqlfcwp1pN/Tfvr7JghzR+m6uTuGd5kgzB0hd9ghB6rhzv9UIALwpgLD4pDydTsoR+UH5dJcsi63gRwyAnhn3rO9JC+xw9bsd3RcPK8gSZRXcvcaDgkBvFC0WDbjh9zGsvps7YUdgff+dgUGxyoTwC0tiTFn6KppMJxVPe7TLiSvAuDL3Mazetws+cOig+LGPypoRKwItzabzROLThBCuMrqnLBjMaROsWx1dCSGicJuFp+5rugmvPfXWBEa5q0EtD9RpCiXgrE4DgKlcI8M+UUfSvy53I2lfo4tuvJPu5AXFKXQo4JGR6WUVwSXFpnKxFpxM2YuEzsXZVmeA+ArBb0y5qT8Ex1COLvQACmzDeARzXeCsLe39Ty0cePGgwptAHAsgOeHqRh/o9E4rtAO59yFJD+o4mYX/rmAbH3WOu+LhXPujBQxVXgpaLdEhPf+3GLQIQk1AE+Q/FaBY2Ob/Ibk42VZnlBU/FKwnl2Lxy5dCibVvLMuYfsJWZUkcVRdm0dy5b9nbIcZMiSQHAHwLIBPSG7voQDbAXwM4BkAd5I8Pnf71SPGuKTZbJ7uvb+J5Ko0B9XSDZ2jqUdPpatX96Sltly9OpV+Npo+W0u/u0qeJbm43G0zGAwGg8FgMBgMBoPBYDAYigrgbyL8XFkh/lDQAAAAAElFTkSuQmCC"
+            />
+          </div>
+          <div class="sec1">
+            <div class="sec1-txt">
+              <div class="txt-part1">
+                Nike Air Men’s Hoodie - Imported Hoodie Red
+              </div>
+              <p class="cart">Add to Cart</p>
+            </div>
+            <div class="bottom1">
+              <p class="price1">$150</p>
+              <img
+                class="pic1"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB80lEQVR4nO2UzWoUQRSFW10I/u1EfQBJQHAjmtwbRdCNq+xGQ7rvbXWRnbgzLiIK6tq4DPoE/sU/cBFR8Cn0JXSjBkU4UjVjY+jumR5txiGeDw4U1fX1KZrqShJCCCGEEEIIIYQQQgghhBDyH4Ps8M6QTeUsHNnRXDA9B585O1TJODuZzMGkM0SJPILpw+E2NsaOy2O4Pmh+XFw+w/QLOid3jaHzMabhbxDeDZNPtQ5cZ5HLQhHTu3BFjOnyhmeus//YWYbri5iheuQ5TF/C9U7JwYXje2H6qthMXUzeID1xIJaMypmb2gfXtd78W5iuIJNTMWEc5rreWlgbnfzofpi+Lt71y8nldJ2TIEm2wOUyTL+XNyU/YHIDnc62DSdnVM71ZCtcluIxtun5Yt6m53tHeymsKTkm10pOrmmdE4HLYsXGFpM+tOZkemWgY/IMl85sjwnjQT0mV+HytHDCr9CvB2Fx+ViuDthYO47pk/6OrsLkHlzex8Rxg56u86Hn3a/twUXdDZN1uH6Dye2Y7ng9PGvNSY/t+asel1vdDNOjNwvH9WulA9cMLu/gM4eKufNTB+NlkWta/YX/wDGxVnt++8cb91Q5yGUyXFKl+XBx5TJZWTIqJ9WJWifVibYcQgghhBBCCCGEEEIIIYQQkmxifgLqZAhfcn92/gAAAABJRU5ErkJggg=="
+              />
+            </div>
+          </div>
+        </div>
+        <div class="product1">
+          <div class="photo-bg1">
+            <img class="item2" src="./watch.png" alt="shirt" />
+            <img
+              class="img1"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFEElEQVR4nO1dW4ydUxT+6xZECR6krnENdQmKuMYlnkRfhGCER6XiURBvQklIxJt76uBFSJXyRilPHJ3kzN7ft/+TTIbBtGg0VDsqrS1r7JFpdMY5cy57nf+sL/mSycyZf9Ze315771l7/2sXhcFgMBgMBoPBYDAYDAaDwWDoCDHGJd77MwHcDGA1yTUA3iC5CUADwDjJLSR/AbBXKF/L9+Rn8pn0WfmdNSGE++VZ8kx5tsnzP3DOnQzgHpLPkfwMwK8kYy+Ynv2p/C3v/d1jY2MnDb1AExMTh3rvbyT5NMk6gL96JUCLIknEvRhCuM05d8RQCBRjPCCEcLU0HMBvOQXgwuLsAvA2yZUxxgOLKg5HJJ8C8F1uZ7N9TgJ4shLDGsnzSdZI/qnAsbFDShtqAM4rBg0kVwD4KPe8wB4wtWmD9/6iQjsALEvzw57cjmPvhdmbImZZoQ3OuUNIPkZyR25Hsf/cAeDRer1+cKEBzrnlJL9W4JiYOWIaIYQLsgkh/+2SvJfkztzOoBICmAbwsCzv+yrG+Pj4UTJp53YA9fLDZrN5ZF/EKMvyNJJeQaOjcpYAzuqpGACuJblNQWPjIBDAz5KZ6IkYkneSlELuRnLAKD4LIdzQVTFS/mkYl7SxS5SFz/XdFON3BY2KA07p0Fd2JIb3/hQAPyloTKwIt4UQTl2UGJOTk4fJPoWCRsSKcbRerx/etiAA3lJgfKwo17YlBskRBUbHivPWlsRwzh1DcqsCg2PFuaXRaBzdylD1qgJj45DwpQXFCCFcWsVNJSpl8vWKhaLjvdxGcvj47nxzx/K0C5bbwDhsUbLffXpb5jKnMLV9xCC51BKHzBkl0/vsn8hxytyha+TI3AjZYA5h7rlk/dyc1W4ThLkF+UPOO8tkfoWJQRVDZlmWl8lw9WBuQ4ycjZLVIshacwhVdApJW8mQ9UVuQ4ycFeRzEYTmEGrpFK5I7+nlNsTIGR9MSYRMm0OookOIFiYIVQmyS4asqdyGGDkryPciiJ3TpZpOMWbLXqriJhHkNQWGGDnjg5dFkAfMIdTSIe4TQS5XYIiRjHLIZCb9Lqlfcwp1pN/Tfvr7JghzR+m6uTuGd5kgzB0hd9ghB6rhzv9UIALwpgLD4pDydTsoR+UH5dJcsi63gRwyAnhn3rO9JC+xw9bsd3RcPK8gSZRXcvcaDgkBvFC0WDbjh9zGsvps7YUdgff+dgUGxyoTwC0tiTFn6KppMJxVPe7TLiSvAuDL3Mazetws+cOig+LGPypoRKwItzabzROLThBCuMrqnLBjMaROsWx1dCSGicJuFp+5rugmvPfXWBEa5q0EtD9RpCiXgrE4DgKlcI8M+UUfSvy53I2lfo4tuvJPu5AXFKXQo4JGR6WUVwSXFpnKxFpxM2YuEzsXZVmeA+ArBb0y5qT8Ex1COLvQACmzDeARzXeCsLe39Ty0cePGgwptAHAsgOeHqRh/o9E4rtAO59yFJD+o4mYX/rmAbH3WOu+LhXPujBQxVXgpaLdEhPf+3GLQIQk1AE+Q/FaBY2Ob/Ibk42VZnlBU/FKwnl2Lxy5dCibVvLMuYfsJWZUkcVRdm0dy5b9nbIcZMiSQHAHwLIBPSG7voQDbAXwM4BkAd5I8Pnf71SPGuKTZbJ7uvb+J5Ko0B9XSDZ2jqUdPpatX96Sltly9OpV+Npo+W0u/u0qeJbm43G0zGAwGg8FgMBgMBoPBYDAYigrgbyL8XFkh/lDQAAAAAElFTkSuQmCC"
+            />
+          </div>
+          <div class="sec1">
+            <div class="sec1-txt">
+              <div class="txt-part1">
+                Nike Air Men’s Hoodie - Imported Hoodie Red
+              </div>
+              <p class="cart">Add to Cart</p>
+            </div>
+            <div class="bottom1">
+              <p class="price1">$150</p>
+              <img
+                class="pic1"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB80lEQVR4nO2UzWoUQRSFW10I/u1EfQBJQHAjmtwbRdCNq+xGQ7rvbXWRnbgzLiIK6tq4DPoE/sU/cBFR8Cn0JXSjBkU4UjVjY+jumR5txiGeDw4U1fX1KZrqShJCCCGEEEIIIYQQQgghhBDyH4Ps8M6QTeUsHNnRXDA9B585O1TJODuZzMGkM0SJPILpw+E2NsaOy2O4Pmh+XFw+w/QLOid3jaHzMabhbxDeDZNPtQ5cZ5HLQhHTu3BFjOnyhmeus//YWYbri5iheuQ5TF/C9U7JwYXje2H6qthMXUzeID1xIJaMypmb2gfXtd78W5iuIJNTMWEc5rreWlgbnfzofpi+Lt71y8nldJ2TIEm2wOUyTL+XNyU/YHIDnc62DSdnVM71ZCtcluIxtun5Yt6m53tHeymsKTkm10pOrmmdE4HLYsXGFpM+tOZkemWgY/IMl85sjwnjQT0mV+HytHDCr9CvB2Fx+ViuDthYO47pk/6OrsLkHlzex8Rxg56u86Hn3a/twUXdDZN1uH6Dye2Y7ng9PGvNSY/t+asel1vdDNOjNwvH9WulA9cMLu/gM4eKufNTB+NlkWta/YX/wDGxVnt++8cb91Q5yGUyXFKl+XBx5TJZWTIqJ9WJWifVibYcQgghhBBCCCGEEEIIIYQQkmxifgLqZAhfcn92/gAAAABJRU5ErkJggg=="
+              />
+            </div>
+          </div>
+        </div>
+        <div class="product1">
+          <div class="photo-bg1">
+            <img class="item2" src="./headphone.png" alt="shirt" />
+            <img
+              class="img1"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFEElEQVR4nO1dW4ydUxT+6xZECR6krnENdQmKuMYlnkRfhGCER6XiURBvQklIxJt76uBFSJXyRilPHJ3kzN7ft/+TTIbBtGg0VDsqrS1r7JFpdMY5cy57nf+sL/mSycyZf9Ze315771l7/2sXhcFgMBgMBoPBYDAYDAaDwWDoCDHGJd77MwHcDGA1yTUA3iC5CUADwDjJLSR/AbBXKF/L9+Rn8pn0WfmdNSGE++VZ8kx5tsnzP3DOnQzgHpLPkfwMwK8kYy+Ynv2p/C3v/d1jY2MnDb1AExMTh3rvbyT5NMk6gL96JUCLIknEvRhCuM05d8RQCBRjPCCEcLU0HMBvOQXgwuLsAvA2yZUxxgOLKg5HJJ8C8F1uZ7N9TgJ4shLDGsnzSdZI/qnAsbFDShtqAM4rBg0kVwD4KPe8wB4wtWmD9/6iQjsALEvzw57cjmPvhdmbImZZoQ3OuUNIPkZyR25Hsf/cAeDRer1+cKEBzrnlJL9W4JiYOWIaIYQLsgkh/+2SvJfkztzOoBICmAbwsCzv+yrG+Pj4UTJp53YA9fLDZrN5ZF/EKMvyNJJeQaOjcpYAzuqpGACuJblNQWPjIBDAz5KZ6IkYkneSlELuRnLAKD4LIdzQVTFS/mkYl7SxS5SFz/XdFON3BY2KA07p0Fd2JIb3/hQAPyloTKwIt4UQTl2UGJOTk4fJPoWCRsSKcbRerx/etiAA3lJgfKwo17YlBskRBUbHivPWlsRwzh1DcqsCg2PFuaXRaBzdylD1qgJj45DwpQXFCCFcWsVNJSpl8vWKhaLjvdxGcvj47nxzx/K0C5bbwDhsUbLffXpb5jKnMLV9xCC51BKHzBkl0/vsn8hxytyha+TI3AjZYA5h7rlk/dyc1W4ThLkF+UPOO8tkfoWJQRVDZlmWl8lw9WBuQ4ycjZLVIshacwhVdApJW8mQ9UVuQ4ycFeRzEYTmEGrpFK5I7+nlNsTIGR9MSYRMm0OookOIFiYIVQmyS4asqdyGGDkryPciiJ3TpZpOMWbLXqriJhHkNQWGGDnjg5dFkAfMIdTSIe4TQS5XYIiRjHLIZCb9Lqlfcwp1pN/Tfvr7JghzR+m6uTuGd5kgzB0hd9ghB6rhzv9UIALwpgLD4pDydTsoR+UH5dJcsi63gRwyAnhn3rO9JC+xw9bsd3RcPK8gSZRXcvcaDgkBvFC0WDbjh9zGsvps7YUdgff+dgUGxyoTwC0tiTFn6KppMJxVPe7TLiSvAuDL3Mazetws+cOig+LGPypoRKwItzabzROLThBCuMrqnLBjMaROsWx1dCSGicJuFp+5rugmvPfXWBEa5q0EtD9RpCiXgrE4DgKlcI8M+UUfSvy53I2lfo4tuvJPu5AXFKXQo4JGR6WUVwSXFpnKxFpxM2YuEzsXZVmeA+ArBb0y5qT8Ex1COLvQACmzDeARzXeCsLe39Ty0cePGgwptAHAsgOeHqRh/o9E4rtAO59yFJD+o4mYX/rmAbH3WOu+LhXPujBQxVXgpaLdEhPf+3GLQIQk1AE+Q/FaBY2Ob/Ibk42VZnlBU/FKwnl2Lxy5dCibVvLMuYfsJWZUkcVRdm0dy5b9nbIcZMiSQHAHwLIBPSG7voQDbAXwM4BkAd5I8Pnf71SPGuKTZbJ7uvb+J5Ko0B9XSDZ2jqUdPpatX96Sltly9OpV+Npo+W0u/u0qeJbm43G0zGAwGg8FgMBgMBoPBYDAYigrgbyL8XFkh/lDQAAAAAElFTkSuQmCC"
+            />
+          </div>
+          <div class="sec1">
+            <div class="sec1-txt">
+              <div class="txt-part1">
+                Nike Air Men’s Hoodie - Imported Hoodie Red
+              </div>
+              <p class="cart">Add to Cart</p>
+            </div>
+            <div class="bottom1">
+              <p class="price1">$150</p>
+              <img
+                class="pic1"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB80lEQVR4nO2UzWoUQRSFW10I/u1EfQBJQHAjmtwbRdCNq+xGQ7rvbXWRnbgzLiIK6tq4DPoE/sU/cBFR8Cn0JXSjBkU4UjVjY+jumR5txiGeDw4U1fX1KZrqShJCCCGEEEIIIYQQQgghhBDyH4Ps8M6QTeUsHNnRXDA9B585O1TJODuZzMGkM0SJPILpw+E2NsaOy2O4Pmh+XFw+w/QLOid3jaHzMabhbxDeDZNPtQ5cZ5HLQhHTu3BFjOnyhmeus//YWYbri5iheuQ5TF/C9U7JwYXje2H6qthMXUzeID1xIJaMypmb2gfXtd78W5iuIJNTMWEc5rreWlgbnfzofpi+Lt71y8nldJ2TIEm2wOUyTL+XNyU/YHIDnc62DSdnVM71ZCtcluIxtun5Yt6m53tHeymsKTkm10pOrmmdE4HLYsXGFpM+tOZkemWgY/IMl85sjwnjQT0mV+HytHDCr9CvB2Fx+ViuDthYO47pk/6OrsLkHlzex8Rxg56u86Hn3a/twUXdDZN1uH6Dye2Y7ng9PGvNSY/t+asel1vdDNOjNwvH9WulA9cMLu/gM4eKufNTB+NlkWta/YX/wDGxVnt++8cb91Q5yGUyXFKl+XBx5TJZWTIqJ9WJWifVibYcQgghhBBCCCGEEEIIIYQQkmxifgLqZAhfcn92/gAAAABJRU5ErkJggg=="
+              />
+            </div>
+          </div>
+        </div>
+        <div class="product1">
+          <div class="photo-bg1">
+            <img class="item2" src="./bag.png" alt="shirt" />
+            <img
+              class="img1"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFEElEQVR4nO1dW4ydUxT+6xZECR6krnENdQmKuMYlnkRfhGCER6XiURBvQklIxJt76uBFSJXyRilPHJ3kzN7ft/+TTIbBtGg0VDsqrS1r7JFpdMY5cy57nf+sL/mSycyZf9Ze315771l7/2sXhcFgMBgMBoPBYDAYDAaDwWDoCDHGJd77MwHcDGA1yTUA3iC5CUADwDjJLSR/AbBXKF/L9+Rn8pn0WfmdNSGE++VZ8kx5tsnzP3DOnQzgHpLPkfwMwK8kYy+Ynv2p/C3v/d1jY2MnDb1AExMTh3rvbyT5NMk6gL96JUCLIknEvRhCuM05d8RQCBRjPCCEcLU0HMBvOQXgwuLsAvA2yZUxxgOLKg5HJJ8C8F1uZ7N9TgJ4shLDGsnzSdZI/qnAsbFDShtqAM4rBg0kVwD4KPe8wB4wtWmD9/6iQjsALEvzw57cjmPvhdmbImZZoQ3OuUNIPkZyR25Hsf/cAeDRer1+cKEBzrnlJL9W4JiYOWIaIYQLsgkh/+2SvJfkztzOoBICmAbwsCzv+yrG+Pj4UTJp53YA9fLDZrN5ZF/EKMvyNJJeQaOjcpYAzuqpGACuJblNQWPjIBDAz5KZ6IkYkneSlELuRnLAKD4LIdzQVTFS/mkYl7SxS5SFz/XdFON3BY2KA07p0Fd2JIb3/hQAPyloTKwIt4UQTl2UGJOTk4fJPoWCRsSKcbRerx/etiAA3lJgfKwo17YlBskRBUbHivPWlsRwzh1DcqsCg2PFuaXRaBzdylD1qgJj45DwpQXFCCFcWsVNJSpl8vWKhaLjvdxGcvj47nxzx/K0C5bbwDhsUbLffXpb5jKnMLV9xCC51BKHzBkl0/vsn8hxytyha+TI3AjZYA5h7rlk/dyc1W4ThLkF+UPOO8tkfoWJQRVDZlmWl8lw9WBuQ4ycjZLVIshacwhVdApJW8mQ9UVuQ4ycFeRzEYTmEGrpFK5I7+nlNsTIGR9MSYRMm0OookOIFiYIVQmyS4asqdyGGDkryPciiJ3TpZpOMWbLXqriJhHkNQWGGDnjg5dFkAfMIdTSIe4TQS5XYIiRjHLIZCb9Lqlfcwp1pN/Tfvr7JghzR+m6uTuGd5kgzB0hd9ghB6rhzv9UIALwpgLD4pDydTsoR+UH5dJcsi63gRwyAnhn3rO9JC+xw9bsd3RcPK8gSZRXcvcaDgkBvFC0WDbjh9zGsvps7YUdgff+dgUGxyoTwC0tiTFn6KppMJxVPe7TLiSvAuDL3Mazetws+cOig+LGPypoRKwItzabzROLThBCuMrqnLBjMaROsWx1dCSGicJuFp+5rugmvPfXWBEa5q0EtD9RpCiXgrE4DgKlcI8M+UUfSvy53I2lfo4tuvJPu5AXFKXQo4JGR6WUVwSXFpnKxFpxM2YuEzsXZVmeA+ArBb0y5qT8Ex1COLvQACmzDeARzXeCsLe39Ty0cePGgwptAHAsgOeHqRh/o9E4rtAO59yFJD+o4mYX/rmAbH3WOu+LhXPujBQxVXgpaLdEhPf+3GLQIQk1AE+Q/FaBY2Ob/Ibk42VZnlBU/FKwnl2Lxy5dCibVvLMuYfsJWZUkcVRdm0dy5b9nbIcZMiSQHAHwLIBPSG7voQDbAXwM4BkAd5I8Pnf71SPGuKTZbJ7uvb+J5Ko0B9XSDZ2jqUdPpatX96Sltly9OpV+Npo+W0u/u0qeJbm43G0zGAwGg8FgMBgMBoPBYDAYigrgbyL8XFkh/lDQAAAAAElFTkSuQmCC"
+            />
+          </div>
+          <div class="sec1">
+            <div class="sec1-txt">
+              <div class="txt-part1">
+                Nike Air Men’s Hoodie - Imported Hoodie Red
+              </div>
+              <p class="cart">Add to Cart</p>
+            </div>
+            <div class="bottom1">
+              <p class="price1">$150</p>
+              <img
+                class="pic1"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB80lEQVR4nO2UzWoUQRSFW10I/u1EfQBJQHAjmtwbRdCNq+xGQ7rvbXWRnbgzLiIK6tq4DPoE/sU/cBFR8Cn0JXSjBkU4UjVjY+jumR5txiGeDw4U1fX1KZrqShJCCCGEEEIIIYQQQgghhBDyH4Ps8M6QTeUsHNnRXDA9B585O1TJODuZzMGkM0SJPILpw+E2NsaOy2O4Pmh+XFw+w/QLOid3jaHzMabhbxDeDZNPtQ5cZ5HLQhHTu3BFjOnyhmeus//YWYbri5iheuQ5TF/C9U7JwYXje2H6qthMXUzeID1xIJaMypmb2gfXtd78W5iuIJNTMWEc5rreWlgbnfzofpi+Lt71y8nldJ2TIEm2wOUyTL+XNyU/YHIDnc62DSdnVM71ZCtcluIxtun5Yt6m53tHeymsKTkm10pOrmmdE4HLYsXGFpM+tOZkemWgY/IMl85sjwnjQT0mV+HytHDCr9CvB2Fx+ViuDthYO47pk/6OrsLkHlzex8Rxg56u86Hn3a/twUXdDZN1uH6Dye2Y7ng9PGvNSY/t+asel1vdDNOjNwvH9WulA9cMLu/gM4eKufNTB+NlkWta/YX/wDGxVnt++8cb91Q5yGUyXFKl+XBx5TJZWTIqJ9WJWifVibYcQgghhBBCCCGEEEIIIYQQkmxifgLqZAhfcn92/gAAAABJRU5ErkJggg=="
+              />
+            </div>
+          </div>
+        </div>
+        <div class="product1">
+          <div class="photo-bg1">
+            <img class="item2" src="./boot.png" alt="shirt" />
+            <img
+              class="img1"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFEElEQVR4nO1dW4ydUxT+6xZECR6krnENdQmKuMYlnkRfhGCER6XiURBvQklIxJt76uBFSJXyRilPHJ3kzN7ft/+TTIbBtGg0VDsqrS1r7JFpdMY5cy57nf+sL/mSycyZf9Ze315771l7/2sXhcFgMBgMBoPBYDAYDAaDwWDoCDHGJd77MwHcDGA1yTUA3iC5CUADwDjJLSR/AbBXKF/L9+Rn8pn0WfmdNSGE++VZ8kx5tsnzP3DOnQzgHpLPkfwMwK8kYy+Ynv2p/C3v/d1jY2MnDb1AExMTh3rvbyT5NMk6gL96JUCLIknEvRhCuM05d8RQCBRjPCCEcLU0HMBvOQXgwuLsAvA2yZUxxgOLKg5HJJ8C8F1uZ7N9TgJ4shLDGsnzSdZI/qnAsbFDShtqAM4rBg0kVwD4KPe8wB4wtWmD9/6iQjsALEvzw57cjmPvhdmbImZZoQ3OuUNIPkZyR25Hsf/cAeDRer1+cKEBzrnlJL9W4JiYOWIaIYQLsgkh/+2SvJfkztzOoBICmAbwsCzv+yrG+Pj4UTJp53YA9fLDZrN5ZF/EKMvyNJJeQaOjcpYAzuqpGACuJblNQWPjIBDAz5KZ6IkYkneSlELuRnLAKD4LIdzQVTFS/mkYl7SxS5SFz/XdFON3BY2KA07p0Fd2JIb3/hQAPyloTKwIt4UQTl2UGJOTk4fJPoWCRsSKcbRerx/etiAA3lJgfKwo17YlBskRBUbHivPWlsRwzh1DcqsCg2PFuaXRaBzdylD1qgJj45DwpQXFCCFcWsVNJSpl8vWKhaLjvdxGcvj47nxzx/K0C5bbwDhsUbLffXpb5jKnMLV9xCC51BKHzBkl0/vsn8hxytyha+TI3AjZYA5h7rlk/dyc1W4ThLkF+UPOO8tkfoWJQRVDZlmWl8lw9WBuQ4ycjZLVIshacwhVdApJW8mQ9UVuQ4ycFeRzEYTmEGrpFK5I7+nlNsTIGR9MSYRMm0OookOIFiYIVQmyS4asqdyGGDkryPciiJ3TpZpOMWbLXqriJhHkNQWGGDnjg5dFkAfMIdTSIe4TQS5XYIiRjHLIZCb9Lqlfcwp1pN/Tfvr7JghzR+m6uTuGd5kgzB0hd9ghB6rhzv9UIALwpgLD4pDydTsoR+UH5dJcsi63gRwyAnhn3rO9JC+xw9bsd3RcPK8gSZRXcvcaDgkBvFC0WDbjh9zGsvps7YUdgff+dgUGxyoTwC0tiTFn6KppMJxVPe7TLiSvAuDL3Mazetws+cOig+LGPypoRKwItzabzROLThBCuMrqnLBjMaROsWx1dCSGicJuFp+5rugmvPfXWBEa5q0EtD9RpCiXgrE4DgKlcI8M+UUfSvy53I2lfo4tuvJPu5AXFKXQo4JGR6WUVwSXFpnKxFpxM2YuEzsXZVmeA+ArBb0y5qT8Ex1COLvQACmzDeARzXeCsLe39Ty0cePGgwptAHAsgOeHqRh/o9E4rtAO59yFJD+o4mYX/rmAbH3WOu+LhXPujBQxVXgpaLdEhPf+3GLQIQk1AE+Q/FaBY2Ob/Ibk42VZnlBU/FKwnl2Lxy5dCibVvLMuYfsJWZUkcVRdm0dy5b9nbIcZMiSQHAHwLIBPSG7voQDbAXwM4BkAd5I8Pnf71SPGuKTZbJ7uvb+J5Ko0B9XSDZ2jqUdPpatX96Sltly9OpV+Npo+W0u/u0qeJbm43G0zGAwGg8FgMBgMBoPBYDAYigrgbyL8XFkh/lDQAAAAAElFTkSuQmCC"
+            />
+          </div>
+          <div class="sec1">
+            <div class="sec1-txt">
+              <div class="txt-part1">
+                Nike Air Men’s Hoodie - Imported Hoodie Red
+              </div>
+              <p class="cart">Add to Cart</p>
+            </div>
+            <div class="bottom1">
+              <p class="price1">$150</p>
+              <img
+                class="pic1"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB80lEQVR4nO2UzWoUQRSFW10I/u1EfQBJQHAjmtwbRdCNq+xGQ7rvbXWRnbgzLiIK6tq4DPoE/sU/cBFR8Cn0JXSjBkU4UjVjY+jumR5txiGeDw4U1fX1KZrqShJCCCGEEEIIIYQQQgghhBDyH4Ps8M6QTeUsHNnRXDA9B585O1TJODuZzMGkM0SJPILpw+E2NsaOy2O4Pmh+XFw+w/QLOid3jaHzMabhbxDeDZNPtQ5cZ5HLQhHTu3BFjOnyhmeus//YWYbri5iheuQ5TF/C9U7JwYXje2H6qthMXUzeID1xIJaMypmb2gfXtd78W5iuIJNTMWEc5rreWlgbnfzofpi+Lt71y8nldJ2TIEm2wOUyTL+XNyU/YHIDnc62DSdnVM71ZCtcluIxtun5Yt6m53tHeymsKTkm10pOrmmdE4HLYsXGFpM+tOZkemWgY/IMl85sjwnjQT0mV+HytHDCr9CvB2Fx+ViuDthYO47pk/6OrsLkHlzex8Rxg56u86Hn3a/twUXdDZN1uH6Dye2Y7ng9PGvNSY/t+asel1vdDNOjNwvH9WulA9cMLu/gM4eKufNTB+NlkWta/YX/wDGxVnt++8cb91Q5yGUyXFKl+XBx5TJZWTIqJ9WJWifVibYcQgghhBBCCCGEEEIIIYQQkmxifgLqZAhfcn92/gAAAABJRU5ErkJggg=="
+              />
+            </div>
+          </div>
+        </div>
+        <div class="product1">
+          <div class="photo-bg1">
+            <img class="item2" src="./heel.png" alt="shirt" />
+            <img
+              class="img1"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFEElEQVR4nO1dW4ydUxT+6xZECR6krnENdQmKuMYlnkRfhGCER6XiURBvQklIxJt76uBFSJXyRilPHJ3kzN7ft/+TTIbBtGg0VDsqrS1r7JFpdMY5cy57nf+sL/mSycyZf9Ze315771l7/2sXhcFgMBgMBoPBYDAYDAaDwWDoCDHGJd77MwHcDGA1yTUA3iC5CUADwDjJLSR/AbBXKF/L9+Rn8pn0WfmdNSGE++VZ8kx5tsnzP3DOnQzgHpLPkfwMwK8kYy+Ynv2p/C3v/d1jY2MnDb1AExMTh3rvbyT5NMk6gL96JUCLIknEvRhCuM05d8RQCBRjPCCEcLU0HMBvOQXgwuLsAvA2yZUxxgOLKg5HJJ8C8F1uZ7N9TgJ4shLDGsnzSdZI/qnAsbFDShtqAM4rBg0kVwD4KPe8wB4wtWmD9/6iQjsALEvzw57cjmPvhdmbImZZoQ3OuUNIPkZyR25Hsf/cAeDRer1+cKEBzrnlJL9W4JiYOWIaIYQLsgkh/+2SvJfkztzOoBICmAbwsCzv+yrG+Pj4UTJp53YA9fLDZrN5ZF/EKMvyNJJeQaOjcpYAzuqpGACuJblNQWPjIBDAz5KZ6IkYkneSlELuRnLAKD4LIdzQVTFS/mkYl7SxS5SFz/XdFON3BY2KA07p0Fd2JIb3/hQAPyloTKwIt4UQTl2UGJOTk4fJPoWCRsSKcbRerx/etiAA3lJgfKwo17YlBskRBUbHivPWlsRwzh1DcqsCg2PFuaXRaBzdylD1qgJj45DwpQXFCCFcWsVNJSpl8vWKhaLjvdxGcvj47nxzx/K0C5bbwDhsUbLffXpb5jKnMLV9xCC51BKHzBkl0/vsn8hxytyha+TI3AjZYA5h7rlk/dyc1W4ThLkF+UPOO8tkfoWJQRVDZlmWl8lw9WBuQ4ycjZLVIshacwhVdApJW8mQ9UVuQ4ycFeRzEYTmEGrpFK5I7+nlNsTIGR9MSYRMm0OookOIFiYIVQmyS4asqdyGGDkryPciiJ3TpZpOMWbLXqriJhHkNQWGGDnjg5dFkAfMIdTSIe4TQS5XYIiRjHLIZCb9Lqlfcwp1pN/Tfvr7JghzR+m6uTuGd5kgzB0hd9ghB6rhzv9UIALwpgLD4pDydTsoR+UH5dJcsi63gRwyAnhn3rO9JC+xw9bsd3RcPK8gSZRXcvcaDgkBvFC0WDbjh9zGsvps7YUdgff+dgUGxyoTwC0tiTFn6KppMJxVPe7TLiSvAuDL3Mazetws+cOig+LGPypoRKwItzabzROLThBCuMrqnLBjMaROsWx1dCSGicJuFp+5rugmvPfXWBEa5q0EtD9RpCiXgrE4DgKlcI8M+UUfSvy53I2lfo4tuvJPu5AXFKXQo4JGR6WUVwSXFpnKxFpxM2YuEzsXZVmeA+ArBb0y5qT8Ex1COLvQACmzDeARzXeCsLe39Ty0cePGgwptAHAsgOeHqRh/o9E4rtAO59yFJD+o4mYX/rmAbH3WOu+LhXPujBQxVXgpaLdEhPf+3GLQIQk1AE+Q/FaBY2Ob/Ibk42VZnlBU/FKwnl2Lxy5dCibVvLMuYfsJWZUkcVRdm0dy5b9nbIcZMiSQHAHwLIBPSG7voQDbAXwM4BkAd5I8Pnf71SPGuKTZbJ7uvb+J5Ko0B9XSDZ2jqUdPpatX96Sltly9OpV+Npo+W0u/u0qeJbm43G0zGAwGg8FgMBgMBoPBYDAYigrgbyL8XFkh/lDQAAAAAElFTkSuQmCC"
+            />
+          </div>
+          <div class="sec1">
+            <div class="sec1-txt">
+              <div class="txt-part1">
+                Nike Air Men’s Hoodie - Imported Hoodie Red
+              </div>
+              <p class="cart">Add to Cart</p>
+            </div>
+            <div class="bottom1">
+              <p class="price1">$150</p>
+              <img
+                class="pic1"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB80lEQVR4nO2UzWoUQRSFW10I/u1EfQBJQHAjmtwbRdCNq+xGQ7rvbXWRnbgzLiIK6tq4DPoE/sU/cBFR8Cn0JXSjBkU4UjVjY+jumR5txiGeDw4U1fX1KZrqShJCCCGEEEIIIYQQQgghhBDyH4Ps8M6QTeUsHNnRXDA9B585O1TJODuZzMGkM0SJPILpw+E2NsaOy2O4Pmh+XFw+w/QLOid3jaHzMabhbxDeDZNPtQ5cZ5HLQhHTu3BFjOnyhmeus//YWYbri5iheuQ5TF/C9U7JwYXje2H6qthMXUzeID1xIJaMypmb2gfXtd78W5iuIJNTMWEc5rreWlgbnfzofpi+Lt71y8nldJ2TIEm2wOUyTL+XNyU/YHIDnc62DSdnVM71ZCtcluIxtun5Yt6m53tHeymsKTkm10pOrmmdE4HLYsXGFpM+tOZkemWgY/IMl85sjwnjQT0mV+HytHDCr9CvB2Fx+ViuDthYO47pk/6OrsLkHlzex8Rxg56u86Hn3a/twUXdDZN1uH6Dye2Y7ng9PGvNSY/t+asel1vdDNOjNwvH9WulA9cMLu/gM4eKufNTB+NlkWta/YX/wDGxVnt++8cb91Q5yGUyXFKl+XBx5TJZWTIqJ9WJWifVibYcQgghhBBCCCGEEEIIIYQQkmxifgLqZAhfcn92/gAAAABJRU5ErkJggg=="
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="l-more">
+        <button class="load">Load More</button>
+      </div>
+    </main>
+    <footer>
+      <div class="pt1">
+        <div class="col-text">
+          <div class="und">STATS</div>
+          <div class="dot"></div>
+          <div class="line"></div>
+          <div style="font-size: 2.4rem; font-weight: 500">Our Statistics</div>
+        </div>
+        <div class="symbols">
+          <div class="sim log1">
+            <img
+              class="img01"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADDklEQVR4nO1ZPWgUURB+8R8TgwoaLRQhlaIpjMndzOY8bURQEYTDmN15GxNIZRQEC6sg/mApaJM6IKgoprNR7BSE+AeCFmolioUYFcGffLK7784QTm/3crl7gf1gu5l58+2befO9XaVSpEhRNeB3rYPQBWh6Ak1foRl1e4RHa0NC05G6J6+LJOgBhvcunT0JyfZB85R5Mzfgcg5eR7Oad+Wk6Uv0duiEsgjw8yvjG4c9Ee2EsgjwnEFofg/fycZzEH4aEnE5pywBNO+G8I+w3H12YzqZsrKkJ6C5HZo+mlI/k8QxPDmUBcBgdjU0vTQ5XYdSTfOOCIY6F0PzXbMTjzDUuTxZAFuICI+aXN6iN9OWPIAFRKCd02YwTkJnOqoM0lgiEOcQhH9D0y94zoGyNnHmWyOJwM1uL8ki4eGyNj7tC0haSwT9uQ3Q9M6sf+WfdoaolURQyLdECpuDte8gn1806/zqTQQjagGExs26LyrpKXuJCF8ysyKY3u0V7W0kYoRgcMx+h0ccy8c2ItC8B5p+mnuPl8APNSWCQmEhhK5BaCBuEiVfyWyG0Cez1kgiX11rIkIFYzsF7RyLncjRnjXQ9NrMiquJhKCao9KCT8enXYkvVrQvbFkCzferFoJqDnsEQmJqPWjay8FxWtZOqSYIjRnSb6oSgmqOmx3CB8OTJyIzVm6gBb1QEoL92W0J86/fqRVdRwO1GiY7Dj+/bEY/TYVCUGh/0th1P37RT12la6nQPQzwCgjvgPC3KG78Q6HhcwQebf0r/ughNH8o9k+1MRs2EOFnNkH41bSvh/8Vgoli6zpPdri59RB+Bs3P4Xa3zjZeQyUK+npWQZyNtYhlrdaqFkiJWAakOzJ/d4Sij9iFfIuyDHC7Ww2Rz/F/K2jaqSwDfGeXUQmPKxsLnTdEbirLAE23zTXgbGXj3kxbqbyETypLAOFTpWuAR2vjOXnUO+3mdyvc0gb8+IHX0RyVk9mJICfhwwmDBGSKP0UteIQmE5OYUWbnoHmiMaQoWHMi6InY5ZQiRQpVDn8ATeQfo487OyMAAAAASUVORK5CYII="
+            />
+            <img
+              class="img02"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACbklEQVR4nO3ZT4hNYRjH8TP+ZxCKYUHKSmEhSmrExgYpJePfhi2mlIWVNEyWis2slULEzobsKOVvKRZYiSxkhpQ/89GZnlsnjDnnunPvO3W/y9vzPO/vd9/nPed5O1nWpk2busEi9OMxPmsuA40ysacF4mvcw/RGmNiL4Sh6Fd3ozCZgOw2Fid4sITC3SnB/bSeyhMAhvMP6sglPwkh3lgjYjG/R7vvKJtXaKokzgeX4EJpOVUkcIUsAzMeLkHQFHRPOCKbidsh5gJlVC6RiZCCkvEFXPQVabgQnQsYgVtdbpKVGsBM/8QPbR4npTdoI1hTGoiOjxGzNTSZrBEvwNpa/8I+4EaNJGsGsmLBzbmHKf+srHdggMAk3Y9nnY81TKRs5F0vmb+/lJeLTMxKDYM5XbCiZk5YRbMH3GAT3V8gboWGBmIzLOFhWRCF3BT7GUicr5o7QsEDsitD8Hz1cQcgCvIrcS5UGwWycWgtHC1fisyXip+Fu3YNgNo5nBAei13PO54/TUeI6cDHiXtc1CGbjfNixI548QuwfL7T8LBQGwVUV9TfHSOE6mosUL7gZv52n4RgEt1Wt3VQjkbuucC29g9lYiy/xW+mHQkuNRP7KwvB3H+9r56femi0xEjWW4WWt1liDYLJGcrAYT/EMc7IGodlGotY8LG1ErZYaGQ+0jSSG9o5M4B0ZithZWWJgTmj7VOWzwsYsMbAptD0qE3wmgq9liYEboa2vTHBXob2OZYmA46Epn7AXlk3qKdz8rseWNv3DDzpj7dpO5Jp2Vy3SU9iZFBisbOK3NjuNhy0yNRRr95VupzZt2mR/4xcVYY/CyCskLQAAAABJRU5ErkJggg=="
+            />
+          </div>
+          <div class="sim log2">
+            <img
+              class="img03"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACTUlEQVR4nO2ZvWsUYRDGVxQVNArBQkVQxCqFjRpv5iLbmjKEK8zdzOIFUvjV2RnBSv8BQQULwb/Bxk7xozE2FkG0uWtETQoRBVEfeXfXO/V29zbv7Zm98D4w1b7zPvvbmdkP1vOcnJycnJycnJyc+gk1fyeU7kBpFcoYftAqhG+jcXSHV6QQQvwPgJ64WSyI8Mq6gAi9LxZE16UaYTiQJLmKqGst/DsjfS7KOwjdR6NypPStlfMu9wlanR59EA1hvqJBPPogGkYbZ/w9GwEEEHoAz9tUdpCHmKODid1TnzwApQ8RDF8uN8hcMkR3bXUawj8g/O2veSkbiJdDUL4et1irMy8jCeL7W6D0OG6xeyMLYmRaEMpfoPwTwsdHFsQIwjfivLulA8HZqcNeTqE+NRG1F70pH4jSo7wwqNU2xznfSwjCdns5EHUVgWstdTPCG/CuJdRCwLNo8lgYWpmB0nLhIGLnk/d7uYX5ynjPA2m+Mh5+sRUFIvY+Xq4TCXg29ekqVLME+dgDElj7tM2L19W+pk0eSzWoT+6yAhG+1QPStPQRWozeV4QWMyuTZbBwbPcaAVYMhPmdsSaQhUSfNpSuGIa0vNiAnkYJlZnUNWYwo02fZG6W5SP0dqg+0OqFKJmWU4dQ+HVc3nMWDLEPXRuqD2oTWyH0slNGM3CmV02YK/R7c+Uls3agv2bdvdoZPi+sfdDk/X/AJMUS6qf22UJ0fIKThyD0KtMnOLF3MJOLp7dFbUbPofQ5DKFnaNB5c2xQiC6Mvx0BXbLx+QXYAGXPDhBgHAAAAABJRU5ErkJggg=="
+            />
+            <img
+              class="img04"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB3klEQVR4nO2ZP0vDQBiHI4oK2haKg4pQESdnJ79Bx1L6JVTc3KzgpF9AqIKD4GdwcVP8s6iLg4gu7SL+G0QURH3kpRdJIU3SS2rScg9k6vve757eXZs2lmUwGAwGg8FgMPgBDAPbwAv/g+RsAUNWlFCXiIPNqEWeYxJ5iFokNoyIG/Gth1mR5K6IT9k9sAdMd7qIzSuQ7wYR4QOY6wYRoQaMdIOIsA/0JF3kAMg12T0TwKOqW066SK7pga7X5oFv4LPhvBAjbnOwAgCsq/Lq33mJR6Fx0hoifcCRatntWBFBtiDwDvwAsx0rIgAbqm0ncSLAlBUQYEb13CZR5DCoDNCrer6SKKKFEYkCsyIumK0VBWZrhdxacoNWBFLqKgDXbfj4rerkBBWRwbMuX0hZ9YstKpGqbo4VcCJFj2/XkqbHk4tIUTOnJgWrAUJTHgFpTZGKi0hKM6ds36+UfVbGKyDTooD8aV6RxxktimRcxpI5r4hDsz67+UQ1FDxq5GAKx56DeefctTUHWFTN1x6H8EbVzGs42OOstTUH6AcuHctYUns1rd4he/ALqQ351MweyyvnXDsHGHfIuCESY7oSjpxJ4MonZzRsyIDaZmfAm7pOgQV5LayEI2cQWNLJ+QVUrNOZFzneiAAAAABJRU5ErkJggg=="
+            />
+          </div>
+          <div class="sim log3">
+            <img
+              class="img05"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADPElEQVR4nO2Yy2sUQRCHJyoaCYhoBEHwkQhKDrlFp2pWRuODgEfZ6LrTPQRBiRgFPXrw6sWLSiKCiCRREPWUswcTH0HNwcQoiH+AmoO3GJUt6d5hHxp3qZ6eNcIUNCyzM9X9df+qqrsdJ7XUUksttf/dSGI7CThNAu+SxCmSOEcCv+umfhefjZLEfurLtDlLySibXU4SciTxKUkkRiuQwAkK4Jjy8W8hJB4iCe+ZAIu1WQphf+MBsu5qknDTAsBvDYYo9JsbA9GX2UASXtqHiJrAScr5rclDCHyXGISskFpSMJGckluJP2X2IhGZmcZE+XsTmcGgXYjAO2g6s7FAJBIF0G2zThikWHhI0ust+QnhrJYL389bK3UmKnYMOeBXCt2eGv7O6WLIgvF6LYAwK3YIh/V3wttMEm5HWW5ax1jYtbH4H95grsp4XIh25uy9LslxsTQtYEZlIhJd60nAPMNvgcLdW81B1AaQN3NX9Xeh69WTCQl4wPPtnooBonexnPi4XB/EsAkYMQcpbrs5II8qpDVhGeRVHJA5ZmfzFLjbi6viNys5kIDnJOGnBZDPcUAWDDr8SBL3VfkJ/bUU4hGSeIsZ5FTh91tjQUoNxkngecpnOshxmso+3U0k8V6jQeYsafwTSbyuoLRfx2kigWONlNaU1YBVKxztnSgAbGSwjzLldEWl4Oiy4S8DwrEiSGcLE2Q4Dkg/q7MQdtZdSQGP9Tsn3HVM3yfNQfoybawtisCBIojXW+Odi/qd0NvLACnQcdhiDKI75BW2D+okGcGcqU4W8IME3in9z9qiwJNYELpDde/EC+j7lO1Yqb/1/RWUxx06BQedLeXJgQvM+MhaOljhLK9jfEMCj1J+15qSn4GeVVpO3LQrcZouOctig+hBCPcAs/OSnGIW14KCtwJRHggMmcBUgPAnQsA1qxB6IPpAhJNmK2O0ms+UHK2DaJic38qOF7OVmFGnyEQgqmFMbkMYKyEShqiWGQxahiiomEhMTjWBAujW907xIaatZyeuqRyva4Y6f/BuXAqqYqtiZ61O2DIK9myLjrcjatsdbVFU/VggCV/0MwHDagMY63ontdRSSy01Z4nYL7juAfHxe3oDAAAAAElFTkSuQmCC"
+            />
+            <img
+              class="img06"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACk0lEQVR4nO2Yy2oUURCGJ0a8EBAxEQTBSxQUH0E3Gi8ILsVRX8CgeAFd+gJu3BiJIohIEgVRV1m7yHhFzcKJURAfQJ2FOx0j80lBBQ6NJqlzqjsRzge9me6q0/90nao6VatlMplM5n8H2AacAe4Bk0AL+KVXS38bA04D/bWlBNANnASeYaMDPAVOiI/FFnEI+Eg608D+xRCwGriFPzeAVVWJWA+8pjxeAX1ViPhA+UyXJkbDqcwvUeRlKWEWuycC+xiGvUUcjHyRVCHCgGediEmxj4B64Oe8houV9y51Roudhe/A4Tn8XdBiaKHuIcRasY+o3Sbgjma5pu6xDXrvptFnw6N3svx7b4Nw/FuanpJMBPQCPwx+O8CWFCHSAFq4pnZ75gsT4KHR92CKEOliLVxZgJBYRlOESNtt4XEQWtLZevImRYicISxI3G9XW9kLg8AL4LeDkK8pQtoRC34G9hX8rAWOAreNmzzkZ9VCZmkAF4FdQFfgcyNwv2ohLXz4AlwXUeq3CxivMrQm8aU92zsBu6vc7GPGxa5KCtZhw78YV989Rt8jKUJk2mFh5wK+5BN9Zp3R96kUIf3GFuWc2tXneOayPrPX4LcDbI4WogtaCtsnOUmq3dlCspgB7gb3LS3KRJIIXVDmThYeACvUdjmwQ1NwT+DzktHnMQ8h3ToMsPAOOA6sCfys1HCypt0msCxZiL7EAeKYSSyuHRHvIiJ4ERmemQnsYxhyFRE0gTI8q4rnEo7uQlRMX8R+iWFKTpGliCiIiZmGWL5Eb6kiCmE27CxANvZQaeE0j6ABnTul0nTPTlYkx2vNaBjbGXl2QoqdW53wAtiqx9tRabu1RWnr9U1/G5EGMGm8k8lkMpnaEuEPN7mobpB4MWYAAAAASUVORK5CYII="
+            />
+          </div>
+          <div class="sim log4">
+            <img
+              class="img07"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB50lEQVR4nO2YTUscQRCGG6PmqHdP8egHopvDVO3KXr2Jh724U7XxIiGQoxJP/gJFUfTmXTEQvPrxJ1T8D4IHNQji6hu6d6MJ6urMrkwj/UJBw0zNPEVVd9WMMUFBQUHvSvgSDUJ4GUJHUPrtzK6FlxDTgPFV+D72EUJrEL6FMp42qkJ5FaW+TuMh/MHz4I9s36sgoLSeAL5mQivGo5pvUDaNyinfnzW/cRs2Mfx9FhZ9KJ/j1AEoH/oQwGUTGbjImt9YiCYycJ41/zsoIeGl9AHQQtb8xo4H9Q6b/BgtF/qMD3LjQeINzMvGF9mxAMJ7CQLYxXSuw/ikWhC00ricqOoan2/w/8qOB7bD2hOm1iNcn7DrBW9qPigoKMgfYd60QaOexH4a9Vjft6F66eXTuS4ox1D6CeEzKN1AePzV/hpN1H3OILSNCpftM9+W2r64HI1AeAPKV0902msI/UCp9OFZ/2KxHZqfc/c+9r9yzxYabj34VKEXyltQvnvFkHYC4RnE+SFUit3O7DrmWXft5TnpDkKbiEc/tQZeSJr86kr9tQaJJpuF/5YBOP7PBn9NCc+f0/3vabEJ36JSyCUPQGknc3j9a/QrRQboNHtwrmeBTlNkwANwfbAQAEIGOJRQUFBQkPFOfwCS+E4X5rzF/gAAAABJRU5ErkJggg=="
+            />
+            <img
+              class="img08"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAABdUlEQVR4nO2Yu0oDQRSGB6+l9qm01Ih4eQ+x9dKLvaIPEUmIaGevKIitl5dQ8R0CKZJIQEz2k8FTiOhudjZxj+F8MDCwe3b+nzk75+w6ZxiGMVQAC0AFeAJeZfh5GSg6rQCTwAnQ5Xc6wDEw4RSKf6B37lWZAE5JT9Upyvm4tIlLp3kNBvwLG8qRBgPPGQw8ajDQymCgqcFAM4OBRt76hyKFyhkMlDQYKMqRmBYfM+c0IO1BWipOC74tAO5SiL8Fxp0mxEQ1IZ06Uvh0if+Kbw98hfUnjNSIlsxLanLeMAxDD8AIUAiIK/jYwahKXnwK2AKugDrwDqyliF+XmDpwCWz6Zw5W9efCy8AZ0P6hyr4BB8BoTPwYcCj3fqctz14ahPBZ4AKIeuhzXoA9YBGYluHn+3ItiQg4B2b6JX4741dXKA1gI6v4XfIlAnZCxa8G/u/pN11gJcTADXq4DjFQQw+1EAOqcGYgZ5ztwH/bAcMwDPcXfAD7CtONJpifMgAAAABJRU5ErkJggg=="
+            />
+          </div>
+        </div>
+        <div class="data">
+          <div class="tot">
+            <p class="b-text">Easy Order System</p>
+            <p>
+              Lorem Ispum is a placeholder text commomly used as a free text.
+            </p>
+          </div>
+          <div class="tot">
+            <p class="b-text">On Time Delievery</p>
+            <p>
+              Lorem Ispum is a placeholder text commomly used as a free text.
+            </p>
+          </div>
+          <div class="tot">
+            <p class="b-text">Money Back Gaurantee</p>
+            <p>
+              Lorem Ispum is a placeholder text commomly used as a free text.
+            </p>
+          </div>
+          <div class="tot">
+            <p class="b-text">24/7 Customer Support</p>
+            <p>
+              Lorem Ispum is a placeholder text commomly used as a free text.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-text">
+        <div class="und">BLOGS</div>
+        <div class="dot"></div>
+        <div class="line"></div>
+        <div style="font-size: 2.4rem; font-weight: 500">Latest News</div>
+      </div>
+      <div class="pt2">
+        <div class="girl-data">
+          <div>
+            <img class="girl" src="./girl1.png" alt="girl1" />
+          </div>
+          <div class="girl-text">
+            <p class="tren">Trendy</p>
+            <p class="tren1">
+              Lorem Ispum is a placeholder text commomly used as a free text.
+            </p>
+            <p class="tren2">10 January 2021</p>
+          </div>
+        </div>
+        <div class="girl-data">
+          <div>
+            <img class="girl" src="./girl2.png" alt="girl2" />
+          </div>
+          <div class="girl-text">
+            <p class="tren">Trendy</p>
+            <p class="tren1">
+              Lorem Ispum is a placeholder text commomly used as a free text.
+            </p>
+            <p class="tren2">10 January 2021</p>
+          </div>
+        </div>
+        <div class="girl-data">
+          <div>
+            <img class="girl" src="./girl3.png" alt="girl3" />
+          </div>
+          <div class="girl-text">
+            <p class="tren">Trendy</p>
+            <p class="tren1">
+              Lorem Ispum is a placeholder text commomly used as a free text.
+            </p>
+            <p class="tren2">10 January 2021</p>
+          </div>
+        </div>
+      </div>
+      <div class="pt3">
+        <div class="p3-p1">
+          <label>
+            <img class="logo" src="./logo.png" alt="logo" /><img
+              class="brand"
+              src="./brand.png"
+              alt="brand"
+            />
+          </label>
+          <p class="txt-data">
+            Lorem ispum is a placeholder text commonly used as a free text.
+          </p>
+          <div class="logos">
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB4UlEQVR4nO2Wu08bQRDG3SRI6dIkiBBC7RQpkGPP3NGTgkcUIUX4Zs5BIk0wyb+TIKBH0PEqKVImvYPEP8BLAlsQ8fCHsJHxxb69vdwVFIy0zWq/++03M7u3mcxD3LeAOAMQLkN5C0oVKNVuR6U558yiNPwyPaAWXkD4O5QuoQzjEL6C8jL8/GAyqEcTUKpGAjs2QCdQHvtPp/T11kE8aLt7n+biO5VY0GMInYWk3s45im/7rdIrtAelT5hyn7a05ZEeCP/sSPs091mkmBcsHJ5Cndch+u0um5yPPjI23av0I6D7PPQInvMGvjsE5d9d1l/eZNIAbpxTm66dbIM+gfBOpMajLybwph3Yce9S67yza0BaN9SX/lh9pES5tvL4luCKCVyNDfa4ZAmumsC1UGGRh0OFwXJ1r7fQiUFEu0nAmMw+htJFdzDvmMAbicBFNxvekLxmABe+mZoDQr8ao+hmWxrPGW3Nm5pTuBwOnqJXED5PvbmEzyP/1VBaSr+rKXDTma7No9TAwofG6zIA9/kDlOspgOsQHreC3jnnmdB/sg34Ris8Ewv6j/OD+GDahxbeZ5IE/FwvhBch9DcS3FyzgI/554mgHRvwaQ5Kq+2PgOYziVYabzSPngVED3Ef4hqtsARAzeDBxgAAAABJRU5ErkJggg=="
+            />
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAACQklEQVR4nO2Wv2sUURDHVxF7URF/JEiwUbDUu5m94+qIiSJENLczdxEr8+tPECWVmCJgE/xR2MXCRs4f2FhYiGAhFp5Y2qoYI1oY/cq7PfV29+3b3ZxgijwYOPbem8/7zpuZ9zxvY6y3AfEHITwN5YdQakPpS9fa4Td/Cs3qwL8DankvhBehtAplOE34B5TvoFHa3x80oJNQWskEJjZAn6E8ukalNNtVUAzaq75BM8WVSh/QaOjzKUf96L41hdcV9nO8J0eI+WYx5/QdwnehNA/hpz1qP/XAr2eXTDJ730JpLkXNNwTEUR98AuJXIPyyZ3OrJpIOcKdO486XwkjQLJS/xtTOW/0E5QNQuhKZG9CkC/zAkiDPow75GpQ+hv+Vx1Mi14Dyz9gmW+lgpTfW5BD/VGTeRW8zJipDOFPaZfdjNpfIhbZDcafw4+BHGK9sS11kB9+zCfAKgU3WNsuHc0NrtS2RjM4FVkuoQ3sH4WPwvE3Zav3TKWXXLpZcYYJ9gBzZngkdO7QVyq9SwC3XbqcczeKFqVkTyvT1fNXRwS6kg5vVgdTrz/RdoSXTZOxQuuTsbnVHA+k6uBFb+ASBP4KztR3W+VI6COXH7n7Ni07o34s/kd3vIXyrcxRCY1A+D+XLUHqWbBQJW0a9ujsTHML94VwvjiwzxxP4I7mgf+ANmun7ISA8XQj6e5hL3N5UMm0ZQse9fgYmKjshvNDJzDwqlW/nPtPcL5OAJiF0H8Kvw1cKrXR/t0ydZpbMxvD+w/gFbPjZRmE0npIAAAAASUVORK5CYII="
+            />
+            <img
+              style="width: 3rem"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAACoUlEQVR4nO2ZvW/TQBjGrQoxVPwlrAzoHCY+pFJUVULKFp+6EIaWnaoDG3QtDAgkyseIIpXCv1CGojYNTHwMtDMwQex0wC96fDm+ZJ/vtc91KvmRXil24rv3d/e+jxPH8xo1atToWIgCf54CsUuBGJH0Y5I+OY/AP6RADDCXu8Tbp09RIN5WkrA0wYgBdc9MO0je/3bkycvf8bUUBEn/XY3J0zj6xZJfOHt1ApKnJBb8WT5AXt0vXSHafEx08JFoFBJbuGb/gxpjcTanH1pv+ABSHGYOeG+FKBqSM4U/iO4umyDCAgCG5ONYTdzfIrq9SHTtPL8scM2dJaK9LTVW/NMAIWJe8u32ycyy0Sv//L67Gu89GO/E98xycgOAetUrXzbpV89UH7x8qo71TmysVwhw8ElNgrIpCxCNGz8aquPVG+oYjV0ZgJ60e8HenbLcBisfhUSbT9Rx9+K/QKUAbnknUpPTKupOeW6jVQtAljtx3KY2AFt3ynOb2gA47mRyG2cAnjfFAuC4k8ltagOwcScdJrepD2BoD3D90h9HkpMCAM+H4Da2JfT5fXUACQQH4MW6Oo8GzQMYvFaf3Xg0QQCwRJQEBKvMSr738C8bvTxBAAjcnHCT0juBUkFPIPBarzw+s3YzfYxaATQEVjdLeG/tCL5KQKkT2LgNSgM3KTQp7BXX4DXOpZWNtHAnhOdNeRylDsJxG26sGtzJGQDHbbgxMLiTMwBbt+FGL8edCgLELLfhJs1xJ+nzftQnAIGICrsNV2GOO0kxKgKwY1zB/92GK1t3ksmD3l0+QKc157xRi0anNccGGO/C3rF9uAvh0XbyiLu+5L+U/48AEHXsRCB2Sief0hN99ReTqCBpAdsOKRDb1Dk34yzxRo0aNfKq1C/noypgnguDhgAAAABJRU5ErkJggg=="
+            />
+            <img
+              style="width: 3rem"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB+0lEQVR4nO2Yv0ocURTGhxSC5gWMkBdIYSPCnrNYJeQJ3Mo9Z9ZAtooKsmmiYJBtA7YLi/lTWlsIgYgWyQtoSJcySqpojEbRT+auM5AigTlzd8fA/eCW893vd889985MFAUFBQUFBQUF9VdoToxA+TGUFqDUhvAalLpQ3oDyFpTfG8dWz4O6N55txDTv5mpOjPgJL/wcSsdQxmAHHUOpVSy80vLgg/OfQ3jJFn5m6h6EzsoHoDPEk6OW1Z8tPbymo6L5AYTflh+c0354banAbvnBOd1G2xaAL7eoAvsWgO/GCX9B+CmUDzxCHFoAftrKzSfu+fr4XQi9hNCpB4Af+QGsR+gNQObTmLoP5XdQvrL3AJ9YKnDhczLE1QqEPhkhfhsAjCv2j9XCSnQnOdMh/C2n52V+AOHLfpS7B5G8FOZYILEAeN5CzrNBk1D6OJgtJH6a2Hk94bFCjSy2Ji50jDqP2oMht12EjozNC/sxar3I0ntAaRrCXwsGR4GLjD8bAc6TdxdPwdHzpL38AMI7XkMUA/hgqAC9KT24ZlVdzw9Q58YtqoD8z5+Up6ZPSgchvFQ6gPILU/gMQqnl4Ry3rPwRhBcLhc8gapVhSOURhOegvAqlVxDuuJ9SwpvmH1vink08Os7TeVefIaaHyZxewgcFBQUFBQUFRX/VNXSWp9GS9qImAAAAAElFTkSuQmCC"
+            />
+          </div>
+          <p class="txt-data2">Copyrights 2021 @Iamabdulqadeer01</p>
+        </div>
+        <div class="p3-p2">
+          <p class="p3-p2-head">Product</p>
+          <p>Download</p>
+          <p>Pricing</p>
+          <p>Locations</p>
+          <p>Server</p>
+          <p>Countries</p>
+        </div>
+        <div class="p3-p2">
+          <p class="p3-p2-head">Category</p>
+          <p>Men</p>
+          <p>Women</p>
+          <p>Kids</p>
+          <p>Best Seller</p>
+          <p>New Arrivals</p>
+        </div>
+        <div class="p3-p2">
+          <p class="p3-p2-head">My Account</p>
+          <p>My Account</p>
+          <p>Discount</p>
+          <p>Returns</p>
+          <p>Order History</p>
+          <p>Order Tracking</p>
+        </div>
+        <div class="p3-p3">
+          <p class="p3-p2-head">Contact Us</p>
+          <div class="bg-part">
+            <img
+              class="img3"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACa0lEQVR4nO2ZO2sVQRSAJz5QMYpIJIqCIAqCgqlM/AF2ol3UylqwUsHCQiIh2EliYWJ+QQot7MRG8RVFtAloq4RgjIJilBtfnxzuEcI1LGfWM7N7xQ8Glt3lDB8zc3bOTgj/+RNgHXAcuAY8Ad4CX7XJ9WN9dkzeDXUD2AJcBT5jR94dB3bWQWAVcBGYpzwyWpckVqhIogu4ix8Pgc25JfYCr/HnlcTOJdGdSGKxTHdqidU6BVLzIOma0YWdi6GUKfZvslMsC8COFCLyncjNmLdEJ/CpApF56dtTRLYdMTSAYaAXWKtNrkf0WQz9niKyP7IyDewriNWj71gZ9RSRDaCFRpFEi4x1ZCY9ReaMnQ5HxLxijDnrKSKp0ML+iJh9xpgNTxHrNOiMzIQWvniKvEkgst4Yc8ZT5EWFU2vKU+SmsdORBIv9uqfIkLFTWUs9xvRrTSADniL92JkukinxQTzsKbIJ+BHR+YJOnT7NTtIO6D3rSAjfJCm4iajMc/Jzz1WigqLqN2dTiOwmLz+B7e4iKvMso8idJBIqcjKjyNGUIpJ9PmSQmAFWJhNRmcsZRM4nlVCRbSXK1Rg+AhuSi6jMaEKRwSwSKrI10T+u98DGbCIqM5BA5FRWCRVZ4/wz+2XyTFUgc8JR5FAlEiqyDHjqIHG7MomW+kKOz8oiZ4m7Qh3AXkEuxelQF2geik6VkJDj6uWhTtCsBr9HSMjuYE+oI8BghMiZUFeAFcB9g8QtyXihztDcVL4rkJiVY7zQDgBHtFRtRdbQwdBOABeWEDkX2g2gA5hYJHFD7oV2hGZpPAk8cj3UDP8wvwAJyd2FGPUONgAAAABJRU5ErkJggg=="
+            />
+            <div class="bg-col">123 Street Trafford, London, UK</div>
+          </div>
+          <div class="bg-part">
+            <img
+              class="img3"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB7UlEQVR4nO3YPYxMURjG8StI2ISIKBSWEB+dREEnGgWFSreFjlYhoZAIGlqNRCXREaFQqESi0IhQ0SASJBKLXR+Jz/3JjXOTyezcO2dn5s69yZ5/cpuZ877v85xz3nPPTJYlEolEItEFtuEWZjTPLG5iaxYDtmBa+/iAjTEGTmgvUzEGNuGV9vEAq2O30Uqcxc+mVfvfh8exNEp8l5GdeNig+DuYXLDwLhNLcGTMjf0Oh4cS3sPIelyrWfhfXIne6yVCT+MMJkq+P4CXNYh/it0Vk3cVl2MM5LMgnEQHS8ZM4AJ+jUD4d5zEspLtexSfisExBqIbCdtxbwjx9/McFbeBebkHMVB5lHU0ef6mjOUjjpXUX45T+NErcFADBY8r9una0IBzFfFz4SBYV5JjL55VCRjWQM5vXMKqkvh9eN4j7gX2l8SsCTmL/qvVQMFrHCrJsQLn8Tk85/LPSsZO4X1s0VEa6Gzy/rfE+XU24+5Ci9VhIOdbaLy+95X8uAwHwtdBCtVloOAJ9lTk3oVHwxTIajbQ8zoQXnwX8WfY5NkYDBS8DY2cP29GlTQbo4FayJKBhsnSCjRMllagYbLFsAJftJeZGAO3tZfrMQZ2dP6IbhHT2NDXQDAxiRvhr+2mmc1nPlp8IpFIJBYV/wDrY6Wru3zmSAAAAABJRU5ErkJggg=="
+            />
+            <div class="bg-col">info@sitename.com</div>
+          </div>
+          <div class="bg-part">
+            <img
+              class="img3"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAAAsTAAALEwEAmpwYAAACTklEQVR4nO3aPYhVRxQH8BO/IooIakjnR4JaiBohTRohYCNEqwU7kZgilagICi5kUUmfYCUmoIIgi5WFQbGyUBGVBCIIZpVFWcQQEUHwKz8Z3hMWE9l5d3X3zt376x+8P3c4c+bMRLRarVarYbAaJ/AQD7A7mggf4Qe88F990cCwv3q3YcyJpsCAsR2IJsA3+Dcj8FMsi5JhJu7IdzpKhi16tyFKhVMVAv+ZVkaUCEOq2RklwrOKgR/hk5hCgZMjURqdhqKqV1gTJcE543MwSoL94wy8K0qCL8YR9m8sjNLgesXA30eJ8F2FsNcwPQrup4d6CJsOGl9FyfBtD4EHo3SYhsuZgXdEE2AdXmYEPhpNgYMZgZ9jfTQBZmQu7bQHfxZNgOV4nBH6BuZGE2BT93AwlvP4OKbQJDM5map8NGSrGpTn52gCzMKFzNCHm/Kl5+OPHpZ3mQO+0bAYdzNDn82p3liEPfgRa6Nu8DnuZ4b+/V23FN3asLV7Ozn6QHIcn0adYAVGMkOn5uTrt37/5RiNTZqG7k21I2p2f/wgM3RqQ4+mUVC6psm8w3oz7K/PDQdW4p4P70xtWlgsxV8TEDrNzn/CvDqEXoKbJsZwLV4iYAEumjiTPxrG7B7a0PEaiTrQ2V8HeqjEVT2MOsHmzPN0VceipkOEKx8gbNrXV0WN592HMgeDufqjkGnopfcQ9pf0nixKoFPQtlV8YpGKYH8xYf9nmW/H1cywt7ExmkDnELIPv3Xfiv2DJ7jVHST0pbHxZP/PVqvVarVakeU1luuigrEYIR0AAAAASUVORK5CYII="
+            />
+            <div class="bg-col">+456 789 789 001</div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/c7f8f926bb.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
